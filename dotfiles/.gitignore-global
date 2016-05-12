@@ -1,0 +1,121 @@
+# Mac OS X Annoyances; Note that "Icon" has to
+# end with two \r's after it for some reason
+*.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# General Development Stuff
+.envrc
+.direnv
+.idea/
+.iws
+.dropbox.attr
+.dropbox.cache
+.idea_modules/
+*.tmp
+*.log
+tmp/*
+log/*
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+*.~vsdx
+*.xlk
+
+# vim-related annoyances
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+Session.vim
+.netrwhist
+*~
+tags
+
+# Ruby/Rails related
+*.rbc
+capybara-*.html
+.rspec
+/log
+/tmp
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/public/system
+/coverage/
+/spec/tmp
+**.orig
+rerun.txt
+pickle-email-*.html
+.rvmrc
+.powenv
+.byebug_history
+.dat*
+.repl_history
+build/
+*.bridgesupport
+build-iPhoneOS/
+build-iPhoneSimulator/
+/.yardoc/
+/_yardoc/
+
+
+# DevOps Tools
+.otto/
+.vagrant/
+packer_cache/
+*.box
+
+
+# Archive Formats; use another tool for
+# storing this information since it's not
+# well suited to git anyway
+*.7z
+*.jar
+*.rar
+*.zip
+*.gz
+*.bzip
+*.bz2
+*.xz
+*.lzma
+*.cab
+*.iso
+*.tar
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+*.msi
+*.msm
+*.msp
+
+# Elixir
+/_build
+/cover
+/deps
+erl_crash.dump
+*.ez
+
+# Misc
+*.pid
+pids
+*.seed
+lib-cov
+coverage
+.grunt
+
