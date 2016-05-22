@@ -1,5 +1,5 @@
 #!/bin/zsh
-export HOMEBREW_GITHUB_API_TOKEN="86008f738f1eab14fa2c64fce7e3ab54c9292ca0"
+export HOMEBREW_GITHUB_API_TOKEN="lol, keep forgetting to remove this"
 source $(brew --prefix)/share/antigen.zsh
 
 # Specify the editor for stuff like 'git commit',
