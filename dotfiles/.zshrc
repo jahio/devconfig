@@ -1,5 +1,5 @@
 #!/bin/zsh
-export HOMEBREW_GITHUB_API_TOKEN="lol, keep forgetting to remove this"
+export HOMEBREW_GITHUB_API_TOKEN=""
 source $(brew --prefix)/share/antigen.zsh
 
 # Specify the editor for stuff like 'git commit',
@@ -56,6 +56,7 @@ antigen apply
 alias htop="sudo htop"
 alias vim="nvim"
 alias ls="ls -FlchG"
+alias be="bundle exec"
 
 # Hook direnv into stuff so it can
 # work its magic
