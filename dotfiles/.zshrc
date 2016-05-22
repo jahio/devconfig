@@ -1,5 +1,5 @@
 #!/bin/zsh
-export HOMEBREW_GITHUB_API_TOKEN="lolredacted"
+export HOMEBREW_GITHUB_API_TOKEN="86008f738f1eab14fa2c64fce7e3ab54c9292ca0"
 source $(brew --prefix)/share/antigen.zsh
 
 # Specify the editor for stuff like 'git commit',
@@ -12,31 +12,31 @@ source /usr/local/opt/chruby/share/chruby/auto.sh
 
 # antigen standup
 antigen use oh-my-zsh
-antigen bundle git
-antigen bundle brew
-antigen bundle brew-cask
-antigen bundle bundler
-antigen bundle chruby
-antigen bundle colored-man-pages
-antigen bundle colorize
-antigen bundle cp
-antigen bundle docker
+# antigen bundle git
+# antigen bundle brew
+# antigen bundle brew-cask
+# antigen bundle bundler
+# antigen bundle chruby
+# antigen bundle colored-man-pages
+# antigen bundle colorize
+# antigen bundle cp
+# antigen bundle docker
 antigen bundle git-prompt
-antigen bundle git-remote-branch
-antigen bundle github
-antigen bundle gitignore
-antigen bundle golang
-antigen bundle iwhois
-antigen bundle mosh
-antigen bundle osx
-antigen bundle redis-cli
-antigen bundle rsync
-antigen bundle ruby
-antigen bundle supercrabtree/k
-antigen bundle chrissicool/zsh-256color
-antigen bundle vasyharan/zsh-brew-services
-antigen bundle krujos/bosh-zsh-autocompletion
-antigen bundle Dannyzen/cf-zsh-autocomplete-plugin
+# antigen bundle git-remote-branch
+# antigen bundle github
+# antigen bundle gitignore
+# antigen bundle golang
+# antigen bundle iwhois
+# antigen bundle mosh
+# antigen bundle osx
+# antigen bundle redis-cli
+# antigen bundle rsync
+# antigen bundle ruby
+# antigen bundle supercrabtree/k
+# antigen bundle chrissicool/zsh-256color
+# antigen bundle vasyharan/zsh-brew-services
+# antigen bundle krujos/bosh-zsh-autocompletion
+# antigen bundle Dannyzen/cf-zsh-autocomplete-plugin
 
 # Settings for powerlevel9k
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir vcs status)
@@ -55,11 +55,11 @@ antigen apply
 # aliases for shits 'n giggles
 alias htop="sudo htop"
 alias vim="nvim"
-alias ls="k"
+alias ls="ls -FlchG"
 
 # Hook direnv into stuff so it can
 # work its magic
 eval "$(direnv hook zsh)"
 
 # Fuzy Finder (brew install fzf)
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
