@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC -//Apple Computer//DTD PLIST 1.0//EN
+http://www.apple.com/DTDs/PropertyList-1.0.dtd>
+<plist version="1.0">
+<dict>
+
+  <key>Label</key>
+  <string>com.tildeslash.monit</string>
+
+  <key>Program</key>
+  <string>/usr/local/bin/monit</string>
+
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>KeepAlive</key>
+  <false/>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>-l</string>
+    <string>/Users/jah/.opt/monit/log/monit.log</string>
+    <string>-c</string>
+    <string>/Users/jah/.monitrc</string>
+    <string>monitor all</string>
+  </array>
+
+  <key>StandardInPath</key>
+  <string>/Users/jah/.opt/monit/log/launchd.stdin.log</string>
+
+  <key>StandardOutPath</key>
+  <string>/Users/jah/.opt/monit/log/launchd.stdout.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>/Users/jah/.opt/monit/log/launchd.stderr.log</string>
+
+</dict>
+</plist>
